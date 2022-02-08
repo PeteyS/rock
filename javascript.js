@@ -50,7 +50,6 @@ button.addEventListener('click', ()=>{
     compPick();
     let outcome = playRound(playerPick, computerChoice);
     returnScore(outcome);
-    changeScale();
     if(playerScore == 5|| computerScore == 5){
         if (computerScore == 5){
             alert('Computer Wins');
