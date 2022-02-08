@@ -1,10 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="javascript.js"></script>
+        <script src="javascript.js" defer></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@0,400;0,700;1,100;1,300&display=swap" rel="stylesheet"> 
     </head>
     <body>
-        <div style="width: 500x; height: 500px;background-color:black ;"></div>
-        <script></script>
+        <div id="title">ROCK PAPER SCISSORS</div>
+        <div id="mainContainer">
+            <div id="computer">
+                <div class="choice" id="comp"></div>
+            </div>
+            <div id="player">
+                <div class="choice rock" id="rock"></div>
+                <div class="choice paper" id="paper"></div>
+                <div class="choice scissors" id="scissors"></div>
+            </div>
+        </div>
+        <div id="score">
+            <div id="compScore">
+                <div id="computerNumber">0</div>
+                <div class="name">COMPUTER</div>
+            </div>
+            <div id="chosen">
+                <button id="btn">GO!</button>
+            </div>
+            <div id="playerScore">
+                <div id="playerNumber">0</div>
+                <div class="name">PLAYER</div>
+            </div>
+        </div>
     </body>
 </html>
